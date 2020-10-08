@@ -40,9 +40,9 @@ function App() {
     <>
       <header>
         <div className="title">
-        <h1 >Movie App</h1>
+        <h1>Movie App</h1>
         </div>
-      
+
         <div className="form">
         <form onSubmit={handleSubmit}>
         <input className="search"

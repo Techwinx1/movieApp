@@ -24,7 +24,7 @@ header{
 }
 
 h1 {
-    font-size: 60px;
+    font-size: 4.5rem;
     font-family: 'Sansita Swashed', cursive;
 }
 
@@ -113,4 +113,50 @@ h1 {
 
 .tag.red{
     color: red;
+}
+
+@media screen and (max-width: 360px) {
+    h1 {
+            font-size: 30px;
+            font-family: 'Sansita Swashed', cursive;
+            text-align: start;
+            width: 100%;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .search {
+        background-color: transparent ;
+        border: 1px solid #22254b ;
+        border-radius: 50px;
+        color: white;
+        font-family: inherit;
+        font-size: 0.6rem;
+        padding: 0.5rem 1.5rem;
+        justify-content: right;
+        width: 110%;
+    }
+}
+
+@media screen and (max-width: 360px){
+    .title {
+        width: 80%;
+        color: #22254b;
+        display: flex;
+        justify-content: flex-start;
+        font-size: 20px;
+        max-height: 10vh;
+      }
+      
+}
+
+@media screen and (max-width: 360px) {
+    header{
+        background-color:#373b69 ;
+        display: flex;
+        padding: 1rem;  
+        
+        max-height: 10vh;
+    }
+    
 }
